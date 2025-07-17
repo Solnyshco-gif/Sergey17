@@ -3,10 +3,10 @@ package ru.vladimir.tgBot;
 import org.testng.annotations.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import ru.vladimir.tgBot.entity.Category;
-import ru.vladimir.tgBot.entity.Product;
-import ru.vladimir.tgBot.repository.CategoryRepository;
-import ru.vladimir.tgBot.repository.ProductRepository;
+import ru.Sergey.tgBot.entity.Category;
+import ru.Sergey.tgBot.entity.Product;
+import ru.Sergey.tgBot.repository.CategoryRepository;
+import ru.Sergey.tgBot.repository.ProductRepository;
 
 @SpringBootTest
 public class FillingTests {
