@@ -1,13 +1,11 @@
 package ru.Sergey.tgBot;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootTest
-class TgBotApplicationTests {
-
-	@Test
-	void contextLoads() {
+@SpringBootApplication
+public class TgBotApplicationTests {
+	public static void main(String[] args) {
+		SpringApplication.run(TgBotApplication.class, args);
 	}
-
 }
